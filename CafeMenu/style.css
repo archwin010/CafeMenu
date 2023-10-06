@@ -15,6 +15,7 @@ h1, h2 {
 
 h1 {
     font-size: 40px;
+    margin-top: 0;
 }
 h2 {
     font-size: 30px;
@@ -49,6 +50,7 @@ body {
     display: inline-block;
     margin-top: 5px;
     margin-bottom: 5px;
+    font-size: 18px;
 }
   
 .flavor, .dessert {
@@ -59,4 +61,35 @@ body {
 .price {
 text-align: right;
 width: 25%
+}
+
+.bottom-line {
+    margin-top: 25px;
+}
+
+/* Footer */
+
+footer {
+    font-size: 14px;
+}
+  
+a {
+    color: black;
+}
+
+/* Pseudo-selector */
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: brown;
+}
+
+a:active {
+    color: brown;
+}
+
+.address {
+    margin-bottom: 5px;
 }
