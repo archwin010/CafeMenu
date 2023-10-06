@@ -1,8 +1,8 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} */
 
 h1, h2, p {
     text-align: center;
@@ -11,6 +11,23 @@ h1, h2, p {
 h1, h2 {
     /* Fallbacks are used in instances where the initial is not found/available. */
     font-family: Impact, serif;
+}
+
+h1 {
+    font-size: 40px;
+}
+h2 {
+    font-size: 30px;
+}
+
+.established {
+    font-style: italic;
+}
+
+hr {
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
 }
 
 body {
@@ -25,4 +42,21 @@ body {
     padding: 20px;
     /* On a very wide screen, max-width property prevent it from growing too wide. */
     max-width: 500px;
+    padding: 20px;
+}
+
+.item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+  
+.flavor, .dessert {
+    text-align: left;
+    width: 75%;
+}
+
+.price {
+text-align: right;
+width: 25%
 }
