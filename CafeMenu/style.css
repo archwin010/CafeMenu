@@ -8,12 +8,21 @@ h1, h2, p {
     text-align: center;
 }
 
+h1, h2 {
+    /* Fallbacks are used in instances where the initial is not found/available. */
+    font-family: Impact, serif;
+}
+
 body {
     background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    font-family: sans-serif;
 }
 .menu {
     width: 80%;
     background-color: burlywood;
     margin-left: auto;
     margin-right: auto;
+    padding: 20px;
+    /* On a very wide screen, max-width property prevent it from growing too wide. */
+    max-width: 500px;
 }
