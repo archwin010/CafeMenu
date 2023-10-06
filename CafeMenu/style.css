@@ -21,6 +21,13 @@ h2 {
     font-size: 30px;
 }
 
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -25px;
+}
+
 .established {
     font-style: italic;
 }
@@ -43,7 +50,7 @@ body {
     padding: 20px;
     /* On a very wide screen, max-width property prevent it from growing too wide. */
     max-width: 500px;
-    padding: 20px;
+    border-radius: 15px;
 }
 
 .item p {
